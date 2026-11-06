@@ -1,0 +1,280 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(253, 253, 253);
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* hero section */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding: 50px 7%;
+}
+.content {
+  text-align: center;
+}
+.logo {
+  margin-bottom: 0%;
+}
+.h-text {
+  margin-bottom: 60px;
+}
+.h-text h1 {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  color: #333;
+}
+.h-text p {
+  font-size: 25px;
+  font-weight: 300;
+  color: #777;
+}
+.stors-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px 30px;
+}
+
+/* second section  */
+.Channels-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding: 0% 7%;
+}
+.channel-text {
+  text-align: center;
+}
+.channel-text h2 {
+  font-size: 33px;
+  font-weight: 700;
+  color: #333;
+  letter-spacing: 7px;
+}
+.channel-text p {
+  font-size: 30px;
+  font-weight: 300;
+  color: #777;
+  letter-spacing: 2px;
+}
+
+/* Third section  */
+.Messages-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding: 100px 7%;
+}
+.Message-text {
+  text-align: center;
+}
+.Message-text h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+  letter-spacing: 7px;
+}
+.Message-text p {
+  font-size: 30px;
+  font-weight: 300;
+  color: #777;
+  letter-spacing: 2px;
+}
+
+/* 4th Section  */
+.In-future-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding: 100px 7%;
+}
+.vectors-img{
+  position: relative;
+  top: -80px;
+  left: -80px;
+}
+.In-future-text-img {
+  text-align: center;
+}
+.In-future-text-img h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+  letter-spacing: 7px;
+}
+.In-future-text-img p {
+  font-size: 30px;
+  font-weight: 300;
+  color: #777;
+  letter-spacing: 2px;
+}
+
+.footer {
+  width: 100%;
+  padding: 80px 7% 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer h3 {
+  font-size: 28px;
+  font-weight: 400;
+  color: #333;
+  margin: 0;
+}
+
+.stors-logo-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.stors-logo-footer img {
+  max-width: 250px;
+  height: auto;
+}
+
+.footer span {
+  color: #4399ed;
+  cursor: pointer;
+}
+
+.peratude {
+  margin-top: 25px;
+}
+
+.peratude img {
+  width: 80px;
+  height: auto;
+}
+@media (max-width: 600px) {
+
+    .hero-section,
+    .Channels-section,
+    .Messages-section,
+    .In-future-section {
+        flex-direction: column;
+        padding: 30px 5%;
+        gap: 30px;
+    }
+
+    /* Hero */
+
+    .content,
+    .Top-image {
+        width: 100%;
+    }
+
+    .logo img {
+        width: 230px;
+    }
+
+    .h-text h1 {
+        font-size: 19px;
+        letter-spacing: 1px;
+    }
+
+    .h-text p {
+        font-size: 16px;
+    }
+
+    .stors-logo {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .stors-logo img {
+        width: 200px;
+    }
+
+    /* Channels */
+
+    .channel-img,
+    .channel-text {
+        width: 100%;
+    }
+
+    /* Messages */
+
+    .Message-text,
+    .Message-img {
+        width: 100%;
+    }
+
+    /* In Future */
+
+    .In-future-img,
+    .In-future-text-img {
+        width: 100%;
+    }
+
+    /* All Headings */
+
+    .channel-text h2,
+    .Message-text h2,
+    .In-future-text-img h2 {
+        font-size: 25px;
+        letter-spacing: 4px;
+    }
+
+    /* All Paragraphs */
+
+    .channel-text p,
+    .Message-text p,
+    .In-future-text-img p {
+        font-size: 18px;
+        letter-spacing: 0;
+    }
+
+    /* Footer */
+
+    .footer {
+        padding: 40px 15px;
+    }
+
+    .footer h3 {
+        font-size: 18px;
+    }
+
+    .stors-logo-footer {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .stors-logo-footer img {
+        width: 200px;
+    }
+
+    .peratude img {
+        width: 65px;
+    }
+
+}
